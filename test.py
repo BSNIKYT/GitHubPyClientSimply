@@ -1,10 +1,12 @@
 import pytest
 
 from main import InitLogin
+from main import InCodeLogger
 
 @pytest.fixture
 def init_login():
-    return InitLogin(logger=None, login='test_user', password='test_password')
+    return InitLogin(InCodeLogger(), 'test_user', 'test_password')
+
 
 def test_login_success(init_login):
     init_login.login()
