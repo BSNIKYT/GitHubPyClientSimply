@@ -2,7 +2,7 @@
 
 import pytest
 from unittest.mock import MagicMock
-from init_login import InitLogin, GitHubLoginError, GitHubDirrectoryNotfoundError
+from main import InitLogin, GitHubLoginError, GitHubDirrectoryNotfoundError
 
 @pytest.fixture
 def init_login_instance():
