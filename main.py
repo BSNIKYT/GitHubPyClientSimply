@@ -476,6 +476,7 @@ class InitLogin():
                     if os.path.exists(rf'''{self.download_default_directory}{os.sep}{link.split('/')[4]}-main.zip'''):
                         break
                 self.logger.info(f'Download zip archive is success')
+                return True
             except AttributeError:
                 self.logger.error(f'Download zip archive is failed by 403/404 error.')
                 raise GitHubDirrectoryNotfoundError('403/404')
