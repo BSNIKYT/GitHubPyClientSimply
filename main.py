@@ -379,7 +379,7 @@ class InitLogin():
 
         self.download_default_directory = os.getcwd()
         options.add_experimental_option("prefs", {"download.default_directory" : self.download_default_directory})
-        for option in ['--log-level=3']:
+        for option in ["window-size=1200x600", '--headless', '--log-level=3']:
             options.add_argument(option)
 
         try:
