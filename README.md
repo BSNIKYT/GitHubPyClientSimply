@@ -26,7 +26,8 @@ This script automates the process of logging into GitHub, navigating to a specif
 1. Ensure that you have provided your GitHub username and password in the `InitLogin` class initialization.
 2. Run the script:
     ```bash
-    python github_automation.py
+    cd GitSimpleClient
+    python main.py
     ```
 3. The script will log in to GitHub using the provided credentials, navigate to the specified repository, and download its ZIP archive.
 
@@ -41,4 +42,4 @@ This script automates the process of logging into GitHub, navigating to a specif
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
