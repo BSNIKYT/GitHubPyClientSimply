@@ -38,8 +38,6 @@ class GitHubDirrectoryNotfoundError(Exception):
     pass
 
 
-git_link = 'https://github.com/BSNIKYT/SvodkaDZ/'
-
 win_driver_download_path = 'https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win%2F1217046%2Fchromedriver_win32.zip?generation=1698692359126601&alt=media'
 lin_driver_download_path = 'https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F1217044%2Fchromedriver_linux64.zip?generation=1698689249131026&alt=media'
 
